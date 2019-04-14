@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Differentiator (3.1.0)
+  - Eureka (4.3.1)
+  - ImageRow (3.2.0):
+    - Eureka (~> 4.3)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
+  - RichTextRow (1.0.3):
+    - Eureka (= 4.3.1)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - Eureka
+  - ImageRow
+  - Moya/RxSwift (= 12.0.1)
+  - RichTextRow (~> 1.0)
+  - RxDataSources (~> 3.0)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - Eureka
+    - ImageRow
+    - Moya
+    - Result
+    - RichTextRow
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Eureka: 28ea296f06710f6745266b71f17862048941a32d
+  ImageRow: 03681b3ef8034b5a649440325f5d5ba7b22c1b0a
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RichTextRow: 75c870acfd96b9c2db8e4cabe7a3294cfa823659
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 92a32a9201cb64ad71211b7867a6234f22ff9cf2
+
+COCOAPODS: 1.5.3

@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053692FCEE51DE49988FB106 /* Pods_openBazaarIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87916847442D3F3E0509CE86 /* Pods_openBazaarIOS.framework */; };
 		EDF9B2F72261B18600C6AE32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B2F62261B18600C6AE32 /* AppDelegate.swift */; };
-		EDF9B2F92261B18600C6AE32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B2F82261B18600C6AE32 /* ViewController.swift */; };
-		EDF9B2FC2261B18600C6AE32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF9B2FA2261B18600C6AE32 /* Main.storyboard */; };
+		EDF9B2F92261B18600C6AE32 /* ListingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B2F82261B18600C6AE32 /* ListingListController.swift */; };
 		EDF9B2FE2261B18700C6AE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF9B2FD2261B18700C6AE32 /* Assets.xcassets */; };
 		EDF9B3012261B18700C6AE32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF9B2FF2261B18700C6AE32 /* LaunchScreen.storyboard */; };
+		EDF9B3092261B87D00C6AE32 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B3082261B87D00C6AE32 /* Models.swift */; };
+		EDF9B30F2262D5F400C6AE32 /* ListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B30E2262D5F400C6AE32 /* ListingController.swift */; };
+		EDF9B3112262EEAE00C6AE32 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B3102262EEAE00C6AE32 /* MainController.swift */; };
+		EDF9B3132262EF0000C6AE32 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B3122262EF0000C6AE32 /* ProfileController.swift */; };
+		EDF9B31522631AF800C6AE32 /* CreateListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9B31422631AF800C6AE32 /* CreateListingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87916847442D3F3E0509CE86 /* Pods_openBazaarIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openBazaarIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C575C312E68A314C8D8B95F /* Pods-openBazaarIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openBazaarIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openBazaarIOS/Pods-openBazaarIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD4465768FDAC8758C6575D /* Pods-openBazaarIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openBazaarIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-openBazaarIOS/Pods-openBazaarIOS.release.xcconfig"; sourceTree = "<group>"; };
 		EDF9B2F32261B18600C6AE32 /* openBazaarIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openBazaarIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF9B2F62261B18600C6AE32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDF9B2F82261B18600C6AE32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDF9B2FB2261B18600C6AE32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF9B2F82261B18600C6AE32 /* ListingListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingListController.swift; sourceTree = "<group>"; };
 		EDF9B2FD2261B18700C6AE32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF9B3002261B18700C6AE32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF9B3022261B18700C6AE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF9B3082261B87D00C6AE32 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EDF9B30E2262D5F400C6AE32 /* ListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingController.swift; sourceTree = "<group>"; };
+		EDF9B3102262EEAE00C6AE32 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		EDF9B3122262EF0000C6AE32 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		EDF9B31422631AF800C6AE32 /* CreateListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053692FCEE51DE49988FB106 /* Pods_openBazaarIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA9685E1F9B27E5344B1356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87916847442D3F3E0509CE86 /* Pods_openBazaarIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B263CA73F9367E14F2BFF86C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C575C312E68A314C8D8B95F /* Pods-openBazaarIOS.debug.xcconfig */,
+				BDD4465768FDAC8758C6575D /* Pods-openBazaarIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDF9B2EA2261B18600C6AE32 = {
 			isa = PBXGroup;
 			children = (
 				EDF9B2F52261B18600C6AE32 /* openBazaarIOS */,
 				EDF9B2F42261B18600C6AE32 /* Products */,
+				B263CA73F9367E14F2BFF86C /* Pods */,
+				3CA9685E1F9B27E5344B1356 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				EDF9B2F62261B18600C6AE32 /* AppDelegate.swift */,
-				EDF9B2F82261B18600C6AE32 /* ViewController.swift */,
-				EDF9B2FA2261B18600C6AE32 /* Main.storyboard */,
+				EDF9B3102262EEAE00C6AE32 /* MainController.swift */,
+				EDF9B2F82261B18600C6AE32 /* ListingListController.swift */,
+				EDF9B31422631AF800C6AE32 /* CreateListingController.swift */,
+				EDF9B3122262EF0000C6AE32 /* ProfileController.swift */,
+				EDF9B30E2262D5F400C6AE32 /* ListingController.swift */,
+				EDF9B3082261B87D00C6AE32 /* Models.swift */,
 				EDF9B2FD2261B18700C6AE32 /* Assets.xcassets */,
 				EDF9B2FF2261B18700C6AE32 /* LaunchScreen.storyboard */,
 				EDF9B3022261B18700C6AE32 /* Info.plist */,
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF9B3052261B18700C6AE32 /* Build configuration list for PBXNativeTarget "openBazaarIOS" */;
 			buildPhases = (
+				D165911E1655CB371674DA21 /* [CP] Check Pods Manifest.lock */,
 				EDF9B2EF2261B18600C6AE32 /* Sources */,
 				EDF9B2F02261B18600C6AE32 /* Frameworks */,
 				EDF9B2F12261B18600C6AE32 /* Resources */,
+				5C15D16E1E5C1175195A92E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +162,88 @@
 			files = (
 				EDF9B3012261B18700C6AE32 /* LaunchScreen.storyboard in Resources */,
 				EDF9B2FE2261B18700C6AE32 /* Assets.xcassets in Resources */,
-				EDF9B2FC2261B18600C6AE32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C15D16E1E5C1175195A92E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-openBazaarIOS/Pods-openBazaarIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageRow/ImageRow.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RichTextRow/RichTextRow.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RichTextRow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-openBazaarIOS/Pods-openBazaarIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D165911E1655CB371674DA21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openBazaarIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDF9B2EF2261B18600C6AE32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF9B2F92261B18600C6AE32 /* ViewController.swift in Sources */,
+				EDF9B30F2262D5F400C6AE32 /* ListingController.swift in Sources */,
+				EDF9B2F92261B18600C6AE32 /* ListingListController.swift in Sources */,
+				EDF9B31522631AF800C6AE32 /* CreateListingController.swift in Sources */,
+				EDF9B3092261B87D00C6AE32 /* Models.swift in Sources */,
 				EDF9B2F72261B18600C6AE32 /* AppDelegate.swift in Sources */,
+				EDF9B3132262EF0000C6AE32 /* ProfileController.swift in Sources */,
+				EDF9B3112262EEAE00C6AE32 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EDF9B2FA2261B18600C6AE32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDF9B2FB2261B18600C6AE32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDF9B2FF2261B18700C6AE32 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +373,13 @@
 		};
 		EDF9B3062261B18700C6AE32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C575C312E68A314C8D8B95F /* Pods-openBazaarIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A55978949T;
 				INFOPLIST_FILE = openBazaarIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +393,13 @@
 		};
 		EDF9B3072261B18700C6AE32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD4465768FDAC8758C6575D /* Pods-openBazaarIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A55978949T;
 				INFOPLIST_FILE = openBazaarIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

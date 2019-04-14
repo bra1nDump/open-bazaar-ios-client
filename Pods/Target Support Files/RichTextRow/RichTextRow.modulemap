@@ -1,0 +1,6 @@
+framework module RichTextRow {
+  umbrella header "RichTextRow-umbrella.h"
+
+  export *
+  module * { export * }
+}

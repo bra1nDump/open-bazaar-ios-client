@@ -8,14 +8,23 @@
 
 import UIKit
 
+let background = UIColor(red: 240/250, green: 240/250, blue: 240/250, alpha: 1.0)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    var window: UIWindow? = {
+        let window = UIWindow()
+        window.backgroundColor = background
+        return window
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window?.rootViewController = MainController()
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
